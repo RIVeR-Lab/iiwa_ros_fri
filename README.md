@@ -14,7 +14,7 @@ Requirements
 iiwa_ros requires several packages to be installed in order to work properly:
 
 * [ROS] - ROS: tested in **Melodic** and **Kinetic**; *Indigo* should work also
-* [KUKA FRI] - This is a modified version of the C++ FRI library provided by KUKA: unfortunately, we cannot release this code, but if you own a KUKA manipulator please contact us in order to acquire this modified library.
+* [KUKA FRI] - This is a modified version of the C++ FRI library provided by KUKA
 * [ROS Control]
 * [Gazebo] and gazebo-ros-pkgs
 * [SpaceVecAlg]
@@ -183,7 +183,7 @@ Authors/Maintainers
 [ros]: http://www.ros.org
 [gazebo]: http://gazebosim.org/
 [ros control]: http://wiki.ros.org/ros_control
-[kuka fri]: https://github.com/costashatz/kuka_fri
+[kuka fri]: https://github.com/RIVeR-Lab/kuka_fri
 [spacevecalg]: https://github.com/costashatz/SpaceVecAlg
 [rbdyn]: https://github.com/costashatz/RBDyn
 [mc_rbdyn_urdf]: https://github.com/costashatz/mc_rbdyn_urdf
