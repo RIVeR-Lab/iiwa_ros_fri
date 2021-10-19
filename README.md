@@ -111,7 +111,9 @@ catkin_make
 
 Sunrise Robot Application upload
 ------------
-You need a specific application to run on the robot side.
+You need a specific application to run on the robot side.  
+The Sunrise Workbench must be installed on a Window 7 machine, the installation file can be downloaded [here](https://drive.google.com/file/d/1ziZXZg95l1BUNqPDOdCwCKVW9B-7XYY1/view?usp=sharing)
+
 0. Make sure a Windows laptop is connected on the X66 Ethernet port and has IP `172.31.1.42` mask `255.255.0.0`
 1. Create a new Sunrise project with Sunrise Workbench and setup an empty RobotApplication template 
 2. Setup the safety configuration in `SafetyConfiguration.sconf` ([example](https://github.com/IFL-CAMP/iiwa_stack/wiki/safetyconf))
